@@ -1,0 +1,13 @@
+#%RAML 1.0 SecurityScheme
+description: Apply this security scheme for all APIs
+type: Pass Through
+describedBy: 
+  headers: 
+    client-id:
+      type: string
+      required: true
+      description: Client ID provided by the API Portal
+    client_secret:
+      type: string
+      required: true
+      description: Client ID provided by the API Portal
